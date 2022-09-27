@@ -82,6 +82,7 @@ Lakukan hal yang sama dengan VLAN 200.
 Setelah itu kita lanjutkan dengan membatasi port yang digunakan, kita asumsikan `fa0/1 - fa0/10` akan digunakan pada ruang 1 dan `fa0/11 - fa0/20` digunakan pada ruang 2.
 
 Gunakan perintah dibawah ini untuk melakukan pembatasan port
+
 [![image.png](https://i.postimg.cc/XYcq0QRJ/image.png)](https://postimg.cc/jD2tHQd0)
 
 Setelah konfigurasi switch selesai, kita bisa `exit`.
@@ -90,6 +91,7 @@ Untuk memastikan bahwa konfigurasi sudah berhasil dilakukan, gunakan perintah `s
 [![image.png](https://i.postimg.cc/xdpmb99h/image.png)](https://postimg.cc/rdWsBX0N)
 
 Kemudian kita bisa mengetes `ping` PC pada ruang 2 dari PC di ruang 1
+
 [![image.png](https://i.postimg.cc/J4THF1kn/image.png)](https://postimg.cc/F7LKdXG5)
 
 Bisa dilihat jika proses gagal karena akses ruang sudah dibatasi oleh V-LAN
