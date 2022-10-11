@@ -235,6 +235,8 @@ interface Vlan1
 
 ## Testing
 1. VLAN yang sama
+   
    [![image.png](https://i.postimg.cc/25WfTcBb/image.png)](https://postimg.cc/CZwtx47S)
 2. Beda VLAN
+   
    [![image.png](https://i.postimg.cc/k4DKkSqb/image.png)](https://postimg.cc/cgyv3rKx)
