@@ -1,26 +1,27 @@
 # **VLAN Trunking**
 
 ## Apa itu VLAN
-
-      VLAN adalah singkatan dari Virtual Local Area Network, guna menghindari keterbatasan fisik LAN melalui sifat yang dimilikinya, memungkinkan skala jaringan dan segmentasi guna meningkatkan langkah-langkah keamanan dan mengurangi adanya latensi jaringan. VLAN adalah subnetwork yang dapat mengelompokkan kumpulan perangkat pada jaringan area lokal fisik (LAN) yang terpisah.
+VLAN adalah singkatan dari Virtual Local Area Network, guna menghindari keterbatasan fisik LAN melalui sifat yang dimilikinya, memungkinkan skala jaringan dan segmentasi guna meningkatkan langkah-langkah keamanan dan mengurangi adanya latensi jaringan. VLAN adalah subnetwork yang dapat mengelompokkan kumpulan perangkat pada jaringan area lokal fisik (LAN) yang terpisah.
 
 ## Trunking
 
-      Trunk atau trunking adalah konsep dimana sistem komunikasi dapat menyediakan akses jaringan untuk banyak klien dengan berbagi satu set garis (peraturan) atau frekuensi, bukan memberikannya secara individual.
-      Trunk dapat dikatakan sebagai konsep pembagian akses antar jaringan dengan menggunakan perangkat jaringan, yang dalam hal ini adalah switch dan menggunakan suatu set peraturan yang ditetapkan dimana tidak sembarang komponen dapat mengakses komponen lain dalam jaringan lain. Lebih simple-nya, konsep trunk membatasi akses antara satu jaringan dengan jaringan lainnya.
-      Konsep Trunk dalam jaringan komputer dilakukan pada komponen switch, karena swtich dapat membaca dan menetapkan alamat mana saja yang diizinkan untuk mengakses komputer lain dalam jaringan lain.
+Trunk atau trunking adalah konsep dimana sistem komunikasi dapat menyediakan akses jaringan untuk banyak klien dengan berbagi satu set garis (peraturan) atau frekuensi, bukan memberikannya secara individual.
+Trunk dapat dikatakan sebagai konsep pembagian akses antar jaringan dengan menggunakan perangkat jaringan, yang dalam hal ini adalah switch dan menggunakan suatu set peraturan yang ditetapkan dimana tidak sembarang komponen dapat mengakses komponen lain dalam jaringan lain. Lebih simple-nya, konsep trunk membatasi akses antara satu jaringan dengan jaringan lainnya.
+Konsep Trunk dalam jaringan komputer dilakukan pada komponen switch, karena swtich dapat membaca dan menetapkan alamat mana saja yang diizinkan untuk mengakses komputer lain dalam jaringan lain.
 
 ## VLAN Trunking
 
-      Trunk adalah sebuah point-to-point link antara 1 atau lebih ethernet switch interfaces dengan perangkat lainnya seperti router atau switch. Ethernet trunks dapat membawa traffic packet atau data dari berbagai VLAN hanya dalam sebuah link. Sebuah VLAN trunk memungkinkan pertukaran data dalam seluruh jaringan.
+Trunk adalah sebuah point-to-point link antara 1 atau lebih ethernet switch interfaces dengan perangkat lainnya seperti router atau switch. Ethernet trunks dapat membawa traffic packet atau data dari berbagai VLAN hanya dalam sebuah link. Sebuah VLAN trunk memungkinkan pertukaran data dalam seluruh jaringan.
 
 ## Tugas
 Studi kasusnya adalah 3 switch yang diletakkan pada masing masing lantai kantor yang mana tiap lantai mempunyai 3 VLAN untuk memisahkan jaringan antara Admin, Developer dan Manager
 
 rangkaian disusun seperti berikut
+
 [![image.png](https://i.postimg.cc/jC0C5wNC/image.png)](https://postimg.cc/cthdkJFN)
 
 berikut adalah konfigurasi dari tiap PC
+
 [![image.png](https://i.postimg.cc/vBnCLckW/image.png)](https://postimg.cc/R6MPvVMF)
 
 kemudian berikut adalah konfigurasi dari switch dan router
